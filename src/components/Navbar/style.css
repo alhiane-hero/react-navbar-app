@@ -1,0 +1,92 @@
+:root {
+    --whiteColor: #fff;
+    --blackColor: #111;
+    --mainColor: #49a6e9;
+    --transition: all .3s ease-in-out;
+}
+
+nav {
+    background-color: var(--whiteColor);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+nav .navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav .navHeader .logo {
+    height: 40px;
+}
+
+nav .navHeader .navToggle {
+    background-color: transparent;
+    color: var(--mainColor);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+nav .navHeader .navToggle:hover {
+    transform: rotate(90deg);
+}
+
+nav .navLinks {
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+nav .navLinks ul li a {
+    display: block;
+    padding: 0.7rem 1rem;
+    color: #324d67;
+    letter-spacing: .1rem;
+    transition: all .3s ease-in-out;
+}
+
+nav .navLinks ul li a:hover {
+    background-color: #a5d5f8;
+    padding-left: 1.5rem;
+    color: var(--mainColor);
+}
+
+nav .socialIcons {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    nav .navHeader .navToggle {
+        display: none;
+    }
+    nav .navContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .navLinks {
+        height: auto !important;
+    }
+    nav .navLinks ul,
+    nav .socialIcons ul {
+        display: flex;
+    }
+    nav .navLinks ul li a {
+        padding: 0 .7rem;
+    }
+    nav .navLinks ul li a:hover {
+        color: var(--mainColor) !important;
+        background-color: transparent;
+        padding: 0.4rem 1rem;
+    }
+    nav .socialIcons {
+        display: block;
+    }
+    nav .socialIcons ul li a {
+        display: block;
+        padding: 0 .7rem;
+        color: var(--mainColor);
+    }
+}
