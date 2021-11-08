@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-navbar-app/static/css/main.03a75d48.chunk.css",
+    "main.js": "/react-navbar-app/static/js/main.358bd84b.chunk.js",
+    "main.js.map": "/react-navbar-app/static/js/main.358bd84b.chunk.js.map",
+    "runtime-main.js": "/react-navbar-app/static/js/runtime-main.66fa9d3b.js",
+    "runtime-main.js.map": "/react-navbar-app/static/js/runtime-main.66fa9d3b.js.map",
+    "static/js/2.0df091bf.chunk.js": "/react-navbar-app/static/js/2.0df091bf.chunk.js",
+    "static/js/2.0df091bf.chunk.js.map": "/react-navbar-app/static/js/2.0df091bf.chunk.js.map",
+    "static/js/3.32081e36.chunk.js": "/react-navbar-app/static/js/3.32081e36.chunk.js",
+    "static/js/3.32081e36.chunk.js.map": "/react-navbar-app/static/js/3.32081e36.chunk.js.map",
+    "index.html": "/react-navbar-app/index.html",
+    "static/css/main.03a75d48.chunk.css.map": "/react-navbar-app/static/css/main.03a75d48.chunk.css.map",
+    "static/js/2.0df091bf.chunk.js.LICENSE.txt": "/react-navbar-app/static/js/2.0df091bf.chunk.js.LICENSE.txt",
+    "static/media/Logo.f13078c1.svg": "/react-navbar-app/static/media/Logo.f13078c1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66fa9d3b.js",
+    "static/js/2.0df091bf.chunk.js",
+    "static/css/main.03a75d48.chunk.css",
+    "static/js/main.358bd84b.chunk.js"
+  ]
+}
